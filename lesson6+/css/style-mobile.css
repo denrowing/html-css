@@ -1,0 +1,102 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .absolut_pos {
+        left: 20px;
+    }
+
+    .container_margin {
+        margin: 0 20px;
+    }
+
+    .wrap_body {
+        max-width: 100%;
+    }
+
+    .header_menu__nav, .button_login, .header_menu__button__booking, .header_middle_logo_desktop  {
+     display: none;
+    }
+
+    .header_content {
+        background-image: url('../img/main/header.png');
+        background-repeat: no-repeat;
+        background-position: center top -80px;
+    }
+
+    .header_content_top_grid {
+        justify-content: center;
+        grid-column-gap: 10px;
+        margin-bottom: 100px;
+    }
+
+    .mobile_menu__button {
+        display: flex;
+    }
+
+    .header_footer_booking {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+    }
+
+
+    .header_middle_logo_mobile {
+        display: block;
+    }
+
+    .header_middle_logo_mobile_text-spended img {
+        width: 110%;
+        height: 110%;
+        margin: 0 -20px;
+    }
+
+    .header_middle_logo_mobile_text-night-club img{
+        width: 27%;
+        margin-top: -25px;
+        margin-left: 280px;
+    }
+
+    .header_middle_logo_mouse img{
+        width: 110%;
+        margin-top: -170px;
+        margin-left: -28px;
+    }
+
+    .header_footer_booking__table {
+        margin-bottom: 20px;
+    }
+
+    .header_footer_booking__table button, .header_footer_see__menu button{
+        max-width: 300px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .first_screen_about_us {
+        flex-direction: column;
+        grid-column-gap: 15px;
+    }
+
+    .first_screen_about_us__header h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .first_screen_about_us__header h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .first_screen_about_us__header__content p {
+        margin-bottom: 10px;
+    }
+
+    .first_screen_about_us_right_side {
+        margin-top: 10px;
+    }
+
+    .first_screen_about_us__read__more {
+        margin-bottom: 0px;
+    }
+
+}
